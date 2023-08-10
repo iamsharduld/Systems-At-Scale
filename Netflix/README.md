@@ -60,7 +60,12 @@ Netflix's architecture is a remarkable example of scalable, resilient, and user-
 
 For a more detailed understanding, please refer to the official Netflix engineering blogs, whitepapers, or case studies.
 
+## References
+
+* https://openconnect.netflix.com/en/
+* https://teamresellerclub.medium.com/how-the-cloud-and-cdn-architecture-works-for-netflix-8f3d17906782
+
 ## To Do
 1. Add the system architecture diagram
-2. ...
+2. Add References
 
