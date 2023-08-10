@@ -8,7 +8,7 @@ Please note that the content in this repository represents prospective designs a
 
 ## Contents
 
-- [Netflix](./Netflix/)
+- [Netflix](./netflix/README.md)
 - ... [more companies](./companies.md)
 
 ## How to Use
