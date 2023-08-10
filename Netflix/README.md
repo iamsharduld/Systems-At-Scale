@@ -52,14 +52,6 @@ Netflix's architecture is a remarkable example of scalable, resilient, and user-
 
 - Java, JavaScript, React, Spring Boot, Docker, Kubernetes, etc.
 
-## Further Reading
-
-- [Netflix Tech Blog](https://netflixtechblog.com)
-- [Netflix Open Connect](https://openconnect.netflix.com)
-- [Some Specific Case Study or Whitepaper](#)
-
-For a more detailed understanding, please refer to the official Netflix engineering blogs, whitepapers, or case studies.
-
 ## References
 
 * https://openconnect.netflix.com/en/
