@@ -8,9 +8,7 @@ Please note that the content in this repository represents prospective designs a
 
 ## Contents
 
-- [Company A](./CompanyA/)
-- [Company B](./CompanyB/)
-- [Company C](./CompanyC/)
+- [Netflix](./Netflix/)
 - ... [more companies](./companies.md)
 
 ## How to Use
