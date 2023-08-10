@@ -52,10 +52,6 @@ Netflix's architecture is a remarkable example of scalable, resilient, and user-
 
 - Java, JavaScript, React, Spring Boot, Docker, Kubernetes, etc.
 
-## Conclusion
-
-Netflix's design reflects a commitment to scalability, resilience, and user experience. It continues to evolve with modern paradigms and technologies to deliver content to millions of users worldwide.
-
 ## Further Reading
 
 - [Netflix Tech Blog](https://netflixtechblog.com)
@@ -63,3 +59,8 @@ Netflix's design reflects a commitment to scalability, resilience, and user expe
 - [Some Specific Case Study or Whitepaper](#)
 
 For a more detailed understanding, please refer to the official Netflix engineering blogs, whitepapers, or case studies.
+
+## To Do
+1. Add the system architecture diagram
+2. ...
+
