@@ -2,7 +2,7 @@
 
 Netflix's architecture is a remarkable example of scalable, resilient, and user-focused design. This document provides an overview of key components and principles that govern the system's operation.
 
-## [Content Delivery Network (CDN)](./CDN/)
+## [Content Delivery Network (CDN)](./CDN/README.md)
 
 - **Netflix Open Connect**: Custom CDN for global streaming content distribution.
 - **Placement in ISPs**: Servers inside ISPs' data centers to reduce latency and increase throughput.
