@@ -159,10 +159,6 @@ The usage of SQL is deliberately kept simple.
   * **Technology Choice**: Legacy Linq2Sql is present, but new development uses Dapper, an open-source Micro-ORM.
   * **Minimal Use of Stored Procedures**: There's only one stored procedure, with an intention to move even that into code, allowing for more control and maintainability in the application itself.
 
-## Disclaimer
-
-(TBD - Add any necessary disclaimers here)
-
 ## References
 - **Starting Point** - [Nick Craver's Blog](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
 - [**Stack Overflow Podcast**](https://stackoverflow.blog/podcast/): Sometimes they discuss technical aspects of their infrastructure on their podcast.
