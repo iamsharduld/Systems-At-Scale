@@ -15,6 +15,8 @@ Please note that the content in this repository represents prospective designs a
 - [Uber (in progress)](./uber/README.md)
 - ... [more companies](./companies.md)
 
+... [Learning Resourcecs](./learning_resources/README.md)
+
 ## How to Use
 
 This repository is organized by company, and each directory contains detailed documentation and diagrams illustrating the particular system design. You can navigate to the individual company's directory to explore its architecture and technologies.
