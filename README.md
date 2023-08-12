@@ -6,7 +6,7 @@ Github Pages - https://iamsharduld.github.io/Systems-At-Scale/
 
 ## Disclaimer
 
-Please note that the content in this repository represents prospective designs and may not be entirely accurate or up-to-date with the current implementations used by the companies described. This repository is meant for educational purposes, and it should be used as a reference and starting point for understanding the principles and patterns of scalable system design. Use of AI tools coupled with fact checking(adding references) is encouraged
+Please note that the content in this repository represents prospective designs and may not be entirely accurate or up-to-date with the current implementations used by the companies described. This repository is meant for educational purposes, and it should be used as a reference and starting point for understanding the principles and patterns of scalable system design. Use of AI tools coupled with fact checking (adding references) is encouraged
 
 ## Contents
 
