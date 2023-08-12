@@ -10,12 +10,14 @@ Please note that the content in this repository represents prospective designs a
 
 ## Contents
 
+### Company List
 - [Netflix](./netflix/README.md)
 - [Stack Overflow](./stackoverflow/README.md)
 - [Uber (in progress)](./uber/README.md)
 - ... [more companies](./companies.md)
 
-... [Learning Resourcecs](./learning_resources/README.md)
+### Recurring Themes
+[Learning Resources](./learning_resources/README.md)
 
 ## How to Use
 
