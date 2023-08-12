@@ -36,7 +36,7 @@ Many technology companies that have scaled to millions of users actively share t
 
 ## 9. Uber
 - **Blog**: [Uber Engineering Blog](https://eng.uber.com/)
-- **YouTube**: [Uber Engineering](https://www.youtube.com/channel/UCI2iMf1WZIS4K8TjgQhJ1fg)
+- **YouTube**: [Uber Engineering](https://www.youtube.com/@UberEngineering)
 
 ## 10. Microsoft
 - **Blog**: [Microsoft Developer Blogs](https://devblogs.microsoft.com/)
