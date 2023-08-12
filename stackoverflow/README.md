@@ -24,21 +24,33 @@
 
 # Load Balancers
 
-## 1. Load Balancer Software: HAProxy 1.5.15 on CentOS 7.
-## 2. TLS Termination: Managed within HAProxy.
-## 3. Network Connections: Two pairs of 10Gbps connections for each load balancer, designated for the external network and DMZ.
-## 4. Memory Utilization: 64GB or more in each load balancer to efficiently cache TLS sessions.
-## 5. Session Resumption: Caching allows for faster and more cost-effective connection resumption.
-## 6. Additional Features: Includes rate limiting and header captures for performance metrics.
+## 1. Load Balancer Software: 
+HAProxy 1.5.15 on CentOS 7.
+## 2. TLS Termination: 
+Managed within HAProxy.
+## 3. Network Connections: 
+Two pairs of 10Gbps connections for each load balancer, designated for the external network and DMZ.
+## 4. Memory Utilization: 
+64GB or more in each load balancer to efficiently cache TLS sessions.
+## 5. Session Resumption: 
+Caching allows for faster and more cost-effective connection resumption.
+## 6. 
+Additional Features: Includes rate limiting and header captures for performance metrics.
 
 # Web Tier
 
-## 1. Software Stack: IIS 8.5, ASP.Net MVC 5.2.3, and .Net 4.6.1.
-## 2. Web Servers: 9 "primary" servers (01-09) for main sites and 2 "dev/meta" servers (10-11) for staging.
-## 3. Distribution: Primary servers handle sites like Stack Overflow and Careers, while meta sites run on the last two servers.
-## 4. Multi-tenant Application: A single application serves requests for all Q&A sites, allowing the entire Q&A network to run off a single application pool on one server. Other applications like Careers and APIs are separate.
-## 5. Monitoring: They use Opserver, an internal monitoring dashboard, to observe Stack Overflow's distribution and utilization across the web tier.
-## 6. Overprovisioning: The servers are overprovisioned for purposes like rolling builds, headroom, and redundancy, with further details to be discussed in future posts.
+## 1. Software Stack: 
+IIS 8.5, ASP.Net MVC 5.2.3, and .Net 4.6.1.
+## 2. Web Servers: 
+9 "primary" servers (01-09) for main sites and 2 "dev/meta" servers (10-11) for staging.
+## 3. Distribution: 
+Primary servers handle sites like Stack Overflow and Careers, while meta sites run on the last two servers.
+## 4. Multi-tenant Application: 
+A single application serves requests for all Q&A sites, allowing the entire Q&A network to run off a single application pool on one server. Other applications like Careers and APIs are separate.
+## 5. Monitoring: 
+They use Opserver, an internal monitoring dashboard, to observe Stack Overflow's distribution and utilization across the web tier.
+## 6. Overprovisioning: 
+The servers are overprovisioned for purposes like rolling builds, headroom, and redundancy, with further details to be discussed in future posts.
 
 # Service Tier
 
