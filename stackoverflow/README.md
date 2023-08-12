@@ -2,22 +2,22 @@
 
 # Network Setup
 
-## 1. DNS (Domain Name System):
+### 1. DNS (Domain Name System):
   * **CloudFlare**: Stack Overflow uses CloudFlare for DNS hosting, which translates human-readable domain names into IP addresses. CloudFlare's global presence ensures quick DNS resolution.
   * **In-house DNS Servers**: They also maintain their own DNS servers as a backup, to provide redundancy and maintain control.
 
-## 2. ISPs (Internet Service Providers):
+### 2. ISPs (Internet Service Providers):
   * **Four ISPs**: Traffic comes through four different ISPs (Level 3, Zayo, Cogent, and Lightower) in New York, adding redundancy and optimal routing.
 
-## 3. Edge Routers:
+### 3. Edge Routers:
   * **ASR-1001 and ASR-1001-X Routers**: These are the routers that manage incoming traffic from the ISPs, set up in two pairs, each handling two ISPs.
   * **BGP (Border Gateway Protocol)**: Used for routing between different networks (ISPs) to control traffic flow and optimize paths.
   * **VLANs (Virtual Local Area Networks)**: These separate and isolate external traffic.
 
-## 4. Load Balancers:
+### 4. Load Balancers:
   * After the routers, traffic is directed to load balancers that distribute the load across servers, ensuring efficient utilization and redundancy.
 
-## 5. 10Gbps MPLS (Multiprotocol Label Switching) between Data Centers:
+### 5. 10Gbps MPLS (Multiprotocol Label Switching) between Data Centers:
   * This high-speed connection between two data centers is used for data replication and quick recovery but not directly for serving the site.
   * **Redundancy Concern**: Although the MPLS connection seems to be a single point of failure, they have additional failover routes through OSPF (Open Shortest Path First) via their ISPs to provide backup connections.
   * **Connectivity to Colorado**: Mentioned are connections to another location in Colorado, presumably another data center, with failover routing between them.
