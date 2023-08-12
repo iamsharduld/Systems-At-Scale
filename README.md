@@ -12,6 +12,7 @@ Please note that the content in this repository represents prospective designs a
 
 - [Netflix](./netflix/README.md)
 - [Stack Overflow](./stackoverflow/README.md)
+- [Uber (in progress)](./uber/README.md)
 - ... [more companies](./companies.md)
 
 ## How to Use
