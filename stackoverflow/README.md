@@ -165,8 +165,7 @@ The usage of SQL is deliberately kept simple.
 
 # References
 - **Starting Point** - [Nick Craver's Blog](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
-- **Stack Overflow Podcast**: Sometimes they discuss technical aspects of their infrastructure on their podcast.
-- **Stack Overflow Engineering Blog**: Various insights into their engineering decisions and architecture.
-- **Stack Exchange on GitHub**: Some of their code and tools are open-source, so you can explore them here.
-- **Tag Engine**: An old post about the performance of their tag engine.
+- [**Stack Overflow Podcast**](https://stackoverflow.blog/podcast/): Sometimes they discuss technical aspects of their infrastructure on their podcast.
+- [**Stack Overflow Engineering Blog**](https://stackoverflow.blog/engineering/): Various insights into their engineering decisions and architecture.
+- [**Stack Exchange on GitHub**](https://github.com/StackExchange): Some of their code and tools are open-source, so you can explore them here.
 - **ByteByteGo** - [YouTube Link](https://youtu.be/fKc050dvNIE)
