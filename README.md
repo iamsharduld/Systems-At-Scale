@@ -1,6 +1,6 @@
 # Tech Company System Designs Study
 
-This repository contains a collection of system design examples from various tech companies that have successfully scaled to millions of users. These system designs are crafted with a focus on understanding the architecture, technologies, and decisions that enable scalability and performance in real-world systems.
+This repository contains a collection of system design examples from various tech companies that have successfully scaled to millions of users. These system designs are crafted with a focus on understanding the architecture, technologies, and decisions that enable scalability and performance in real-world.
 
 ## Disclaimer
 
