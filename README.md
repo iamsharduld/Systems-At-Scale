@@ -30,7 +30,7 @@ Thanks to all contributors and those who have shared their insights into system 
 
 ## Contact
 
-For questions or feedback, please [open an issue](https://github.com/yourusername/tech-company-system-designs/issues) or contact the maintainer at your.email@example.com.
+For questions or feedback, please [open an issue](https://github.com/yourusername/tech-company-system-designs/issues) or contact the maintainer at https://www.threads.net/@isharduld.
 
 ## Further Reading
 
