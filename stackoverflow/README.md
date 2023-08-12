@@ -1,3 +1,5 @@
+# Stack Overflow Architecture
+
 ![image](https://github.com/iamsharduld/Systems-At-Scale/assets/8417988/722a9e4d-8568-48b1-8e2d-b3bc2ebc4811)
 
 ## Network Setup
