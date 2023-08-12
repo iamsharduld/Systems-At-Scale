@@ -50,7 +50,7 @@ A single application serves requests for all Q&A sites, allowing the entire Q&A 
 ### 5. Monitoring: 
 They use Opserver, an internal monitoring dashboard, to observe Stack Overflow's distribution and utilization across the web tier.
 ### 6. Overprovisioning: 
-The servers are overprovisioned for purposes like rolling builds, headroom, and redundancy, with further details to be discussed in future posts.
+The servers are overprovisioned for purposes like rolling builds, headroom, and redundancy.
 
 ## Service Tier
 
@@ -71,7 +71,7 @@ Unlike the 9-fold redundancy in the web tier, the service tier emphasizes effici
 The boxes are configured to be optimized for different computational loads, like the tag engine and elastic indexing jobs.
 
 ### 6. Tag Engine
-A crucial component handling all tag matching outside of /search, enabling features like new navigation. A more detailed explanation is reserved for a dedicated post.
+A crucial component handling all tag matching outside of /search, enabling features like new navigation.
 
 ## Cache & Pub/Sub
 
