@@ -8,10 +8,11 @@ Scalable systems are designed to handle an increasing amount of work by adding r
 2. [Load Balancing](#load-balancing)
 3. [Distributed Databases](#distributed-databases)
 4. [Replication and Sharding](#replication-and-sharding)
-5. [Caching Strategies](#caching-strategies)
-6. [Microservices Architecture](#microservices-architecture)
-7. [Fault Tolerance](#fault-tolerance)
-8. [Monitoring and Logging](#monitoring-and-logging)
+5. [Distributed Messaging](#distributed-messaging)
+6. [Caching Strategies](#caching-strategies)
+7. [Microservices Architecture](#microservices-architecture)
+8. [Fault Tolerance](#fault-tolerance)
+9. [Monitoring and Logging](#monitoring-and-logging)
 
 ### Consistent Hashing
 
@@ -43,6 +44,16 @@ Replication ensures that data is duplicated across multiple nodes, while shardin
 
 - **Replication Types**: Master-Slave, Peer-to-Peer
 - **Sharding Strategies**: Range-based, Directory-based, Hash-based
+
+### Distributed Messaging
+
+Distributed messaging systems facilitate communication between different parts of a scalable system, ensuring high throughput and fault tolerance.
+
+- **Messaging Patterns**: Publish-Subscribe, Queuing
+- **Brokers**: Kafka, RabbitMQ, ActiveMQ
+- **Delivery Guarantees**: At-most-once, at-least-once, exactly-once delivery
+- **Fault Tolerance**: Techniques for recovering from failures
+- **Scalability**: Ability to grow by adding more components
 
 ### Caching Strategies
 
