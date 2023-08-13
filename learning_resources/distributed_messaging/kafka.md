@@ -18,7 +18,7 @@
 ### Q: Can Kafka be used for real-time processing?
 **A:** Yes, Kafka's low-latency design is suitable for real-time data processing, working with Kafka Streams or other stream processing systems.
 
-### Q: Why is Kafka fast? What is the secret?
+### Q: [Why is Kafka fast?](https://www.youtube.com/watch?v=UNUz1-msbOM)
 **A:** Kafka's speed isn't just about an abstract notion of being "fast." It’s about high throughput - moving a large volume of data efficiently, like a large pipe moving liquid. Two key design decisions contribute to Kafka's performance:
 
 1. **Sequential I/O**: Unlike random disk access, which is slow, Kafka relies on sequential access. By using an append-only log as its primary data structure, it takes advantage of this sequential access pattern. Sequential writes on modern hardware reach hundreds of megabytes per second, orders of magnitude faster than random writes.
