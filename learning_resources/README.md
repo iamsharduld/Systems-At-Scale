@@ -50,7 +50,7 @@ Replication ensures that data is duplicated across multiple nodes, while shardin
 Distributed messaging systems facilitate communication between different parts of a scalable system, ensuring high throughput and fault tolerance.
 
 - **Messaging Patterns**: Publish-Subscribe, Queuing
-- **Brokers**: Kafka, RabbitMQ, ActiveMQ
+- **Brokers**: [Kafka](./distributed_messaging/kafka.md), RabbitMQ, ActiveMQ
 - **Delivery Guarantees**: At-most-once, at-least-once, exactly-once delivery
 - **Fault Tolerance**: Techniques for recovering from failures
 - **Scalability**: Ability to grow by adding more components
