@@ -20,7 +20,7 @@ Elasticsearch is a distributed search and analytics engine built on Apache Lucen
 
 ### Search and Analytics
 - Elasticsearch's core functionality is full-text search, allowing complex queries and aggregations.
-- Utilizes an inverted index to enable efficient search operations.
+- Utilizes an [inverted index](./misc/inverted_index.md) to enable efficient search operations.
 
 ## Uses <a name="uses"></a>
 Elasticsearch is widely used across various domains:
