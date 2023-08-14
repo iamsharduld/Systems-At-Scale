@@ -30,7 +30,7 @@ Load balancing distributes network or application traffic across multiple server
 - **Session Persistence**: Techniques to ensure that a user's consecutive requests are sent to the same server.
 - **Health Checks**: Monitoring the health of the servers to avoid sending requests to failed or underperforming servers.
 
-### Distributed Databases
+### [Distributed Databases](./distributed_databases/README.md)
 
 Distributed databases spread data across multiple physical locations. They are designed to improve performance, availability, and fault tolerance.
 
