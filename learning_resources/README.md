@@ -7,12 +7,11 @@ Scalable systems are designed to handle an increasing amount of work by adding r
 1. [Consistent Hashing](#consistent-hashing)
 2. [Load Balancing](#load-balancing)
 3. [Distributed Databases](#distributed-databases)
-4. [Replication and Sharding](#replication-and-sharding)
-5. [Distributed Messaging](#distributed-messaging)
-6. [Caching Strategies](#caching-strategies)
-7. [Microservices Architecture](#microservices-architecture)
-8. [Fault Tolerance](#fault-tolerance)
-9. [Monitoring and Logging](#monitoring-and-logging)
+4. [Distributed Messaging](#distributed-messaging)
+5. [Caching Strategies](#caching-strategies)
+6. [Microservices Architecture](#microservices-architecture)
+7. [Fault Tolerance](#fault-tolerance)
+8. [Monitoring and Logging](#monitoring-and-logging)
 
 ### Consistent Hashing
 
@@ -20,7 +19,7 @@ Consistent hashing is a technique used to distribute data across multiple nodes,
 
 - **How It Works**: Maps both data and nodes onto a hash ring. Data is assigned to the nearest node on the ring.
 - **Advantages**: Reduces the need to move data when nodes are added or removed.
-- **Related Topics**: [Hash Functions](#), [Virtual Nodes](#)
+- **Related Topics**: Hash Functions, Virtual Nodes
 
 ### Load Balancing
 
@@ -30,20 +29,17 @@ Load balancing distributes network or application traffic across multiple server
 - **Session Persistence**: Techniques to ensure that a user's consecutive requests are sent to the same server.
 - **Health Checks**: Monitoring the health of the servers to avoid sending requests to failed or underperforming servers.
 
-### Distributed Databases
+### [Distributed Databases](./distributed_databases/README.md)
 
 Distributed databases spread data across multiple physical locations. They are designed to improve performance, availability, and fault tolerance.
 
 - **Types**: Horizontal Partitioning, Vertical Partitioning
 - **CAP Theorem**: Balancing Consistency, Availability, and Partition tolerance.
 - **Database Systems**: Cassandra, MongoDB, MySQL Cluster
+- **Replication and Sharding** :Replication ensures that data is duplicated across multiple nodes, while sharding partitions data to spread it across servers.
 
-### Replication and Sharding
-
-Replication ensures that data is duplicated across multiple nodes, while sharding partitions data to spread it across servers.
-
-- **Replication Types**: Master-Slave, Peer-to-Peer
-- **Sharding Strategies**: Range-based, Directory-based, Hash-based
+  - **Replication Types**: Master-Slave, Peer-to-Peer
+  - **Sharding Strategies**: Range-based, Directory-based, Hash-based
 
 ### Distributed Messaging
 
