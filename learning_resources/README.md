@@ -20,7 +20,7 @@ Consistent hashing is a technique used to distribute data across multiple nodes,
 
 - **How It Works**: Maps both data and nodes onto a hash ring. Data is assigned to the nearest node on the ring.
 - **Advantages**: Reduces the need to move data when nodes are added or removed.
-- **Related Topics**: [Hash Functions](#), [Virtual Nodes](#)
+- **Related Topics**: Hash Functions, Virtual Nodes
 
 ### Load Balancing
 
