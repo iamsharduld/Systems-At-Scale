@@ -4,7 +4,7 @@ Database indexes are data structures that improve the speed of data retrieval op
 
 ## 1. Structure
 
-- [**B-Tree**](#B-tree Index): Most relational databases use a B-tree or a variant of it (such as B+ tree) for indexes. The B-tree data structure allows the database engine to quickly navigate through keys and find the row or rows associated with a key.
+- [**B-Tree Index**](#b-tree-index): Most relational databases use a B-tree or a variant of it (such as B+ tree) for indexes. The B-tree data structure allows the database engine to quickly navigate through keys and find the row or rows associated with a key.
 
 - **Hash Index**: Some databases use hash indexes, where a hash function transforms the key value into a location in an array.
 
