@@ -40,7 +40,7 @@ With an index on the "username" column, the database can quickly find the locati
 
 Indexes should be used judiciously, especially in columns that are frequently searched or sorted. Analyzing the queries that your application uses most often can help you decide where indexes are needed.
 
-## Example
+## Index Data Structure
 
 ### B-tree Index
 
