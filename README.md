@@ -29,7 +29,7 @@ We welcome contributions! If you'd like to add a system design, update existing 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgements
 
