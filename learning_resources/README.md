@@ -7,12 +7,11 @@ Scalable systems are designed to handle an increasing amount of work by adding r
 1. [Consistent Hashing](#consistent-hashing)
 2. [Load Balancing](#load-balancing)
 3. [Distributed Databases](#distributed-databases)
-4. [Replication and Sharding](#replication-and-sharding)
-5. [Distributed Messaging](#distributed-messaging)
-6. [Caching Strategies](#caching-strategies)
-7. [Microservices Architecture](#microservices-architecture)
-8. [Fault Tolerance](#fault-tolerance)
-9. [Monitoring and Logging](#monitoring-and-logging)
+4. [Distributed Messaging](#distributed-messaging)
+5. [Caching Strategies](#caching-strategies)
+6. [Microservices Architecture](#microservices-architecture)
+7. [Fault Tolerance](#fault-tolerance)
+8. [Monitoring and Logging](#monitoring-and-logging)
 
 ### Consistent Hashing
 
@@ -37,13 +36,10 @@ Distributed databases spread data across multiple physical locations. They are d
 - **Types**: Horizontal Partitioning, Vertical Partitioning
 - **CAP Theorem**: Balancing Consistency, Availability, and Partition tolerance.
 - **Database Systems**: Cassandra, MongoDB, MySQL Cluster
+- **Replication and Sharding** :Replication ensures that data is duplicated across multiple nodes, while sharding partitions data to spread it across servers.
 
-### Replication and Sharding
-
-Replication ensures that data is duplicated across multiple nodes, while sharding partitions data to spread it across servers.
-
-- **Replication Types**: Master-Slave, Peer-to-Peer
-- **Sharding Strategies**: Range-based, Directory-based, Hash-based
+  - **Replication Types**: Master-Slave, Peer-to-Peer
+  - **Sharding Strategies**: Range-based, Directory-based, Hash-based
 
 ### Distributed Messaging
 
