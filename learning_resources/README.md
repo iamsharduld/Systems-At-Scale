@@ -55,7 +55,7 @@ Distributed messaging systems facilitate communication between different parts o
 
 Caching improves system performance by storing instances of data in high-speed storage areas.
 
-- **Types**: In-memory caches, Content Delivery Networks (CDNs)
+- **Types**: In-memory caches, [Content Delivery Networks (CDNs)](./cache/CDN.md)
 - **Cache Eviction Policies**: LRU, FIFO, LFU
 
 ### Microservices Architecture
