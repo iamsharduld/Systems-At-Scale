@@ -51,7 +51,7 @@ Distributed messaging systems facilitate communication between different parts o
 - **Fault Tolerance**: Techniques for recovering from failures
 - **Scalability**: Ability to grow by adding more components
 
-### Caching Strategies
+### [Caching Strategies](./cache/README.md)
 
 Caching improves system performance by storing instances of data in high-speed storage areas.
 
