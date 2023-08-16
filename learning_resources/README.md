@@ -4,22 +4,13 @@ Scalable systems are designed to handle an increasing amount of work by adding r
 
 ## Table of Contents
 
-1. [Consistent Hashing](#consistent-hashing)
-2. [Load Balancing](#load-balancing)
-3. [Distributed Databases](#distributed-databases)
-4. [Distributed Messaging](#distributed-messaging)
-5. [Caching Strategies](#caching-strategies)
-6. [Microservices Architecture](#microservices-architecture)
-7. [Fault Tolerance](#fault-tolerance)
-8. [Monitoring and Logging](#monitoring-and-logging)
-
-### Consistent Hashing
-
-Consistent hashing is a technique used to distribute data across multiple nodes, minimizing reorganization when nodes are added or removed. It's commonly used in distributed caches and databases.
-
-- **How It Works**: Maps both data and nodes onto a hash ring. Data is assigned to the nearest node on the ring.
-- **Advantages**: Reduces the need to move data when nodes are added or removed.
-- **Related Topics**: Hash Functions, Virtual Nodes
+1. [Load Balancing](#load-balancing)
+2. [Distributed Databases](#distributed-databases)
+3. [Distributed Messaging](#distributed-messaging)
+4. [Caching Strategies](#caching-strategies)
+5. [Microservices Architecture](#microservices-architecture)
+6. [Fault Tolerance](#fault-tolerance)
+7. [Monitoring and Logging](#monitoring-and-logging)
 
 ### Load Balancing
 
