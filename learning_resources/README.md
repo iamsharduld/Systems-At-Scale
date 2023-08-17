@@ -8,9 +8,8 @@ Scalable systems are designed to handle an increasing amount of work by adding r
 2. [Distributed Databases](#distributed-databases)
 3. [Distributed Messaging](#distributed-messaging)
 4. [Caching Strategies](#caching-strategies)
-5. [Distributed File System](#distributed-file-system)
-6. [Fault Tolerance](#fault-tolerance)
-7. [Monitoring and Logging](#monitoring-and-logging)
+5. [Fault Tolerance](#fault-tolerance)
+6. [Monitoring and Logging](#monitoring-and-logging)
 
 ### Load Balancing
 
@@ -48,13 +47,6 @@ Caching improves system performance by storing instances of data in high-speed s
 
 - **Types**: In-memory caches, [Content Delivery Networks (CDNs)](./cache/CDN.md)
 - **Cache Eviction Policies**: LRU, FIFO, LFU
-
-### Distributed File System
-
-Microservices break an application into small, independent services that run as separate processes.
-
-- **Benefits**: Scalability, Maintainability, Flexibility
-- **Challenges**: Data consistency, Network latency
 
 ### Fault Tolerance
 
