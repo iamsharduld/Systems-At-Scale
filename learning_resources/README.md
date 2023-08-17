@@ -48,7 +48,7 @@ Caching improves system performance by storing instances of data in high-speed s
 - **Types**: In-memory caches, [Content Delivery Networks (CDNs)](./cache/CDN.md)
 - **Cache Eviction Policies**: LRU, FIFO, LFU
 
-### Fault Tolerance
+### [Fault Tolerance](./fault_tolerance/README.md)
 
 Fault tolerance ensures that a system continues to operate even if some components fail.
 
