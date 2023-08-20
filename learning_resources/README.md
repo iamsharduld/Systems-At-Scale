@@ -54,7 +54,7 @@ Fault tolerance ensures that a system continues to operate even if some componen
 
 - **Techniques**: Redundancy, Failover, Graceful Degradation
 
-### Monitoring and Logging
+### [Monitoring and Logging](./monitoring_and_logging/)
 
 Effective monitoring and logging provide insights into system performance, security, and user behavior.
 
