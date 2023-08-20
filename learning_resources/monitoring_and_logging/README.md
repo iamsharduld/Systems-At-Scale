@@ -6,7 +6,7 @@ Monitoring and logging in a distributed system environment can be challenging du
 
 - Logs from each service are aggregated to a centralized system for easier analysis.
 - Popular tools include:
-  - **ELK Stack** (Elasticsearch, Logstash, Kibana)
+  - [**ELK Stack** (Elasticsearch, Logstash, Kibana)](.elk.md)
   - **Graylog**
   - **Splunk**
 
